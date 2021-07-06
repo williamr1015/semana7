@@ -1,0 +1,634 @@
+@media screen and (max-width: 1350px) {
+    .logoIC {
+      width: 152px;
+      height: 32;
+      margin-left: 42px;
+    }
+    .buscador {
+      width: 500px;
+      height: 40px;
+      border: 1px solid #4b4b4b;
+      border-radius: 20px;
+      margin-left: 40px;
+      align-content: center;
+      padding-left: 12px;
+      padding-right: 10px;
+    }
+    .gurardados {
+      margin-left: 170px;
+    }
+  }
+  @media screen and (max-width: 1250px) {
+    .logoIC {
+      width: 152px;
+      height: 32;
+      margin-left: 37px;
+    }
+    .buscador {
+      width: 470px;
+      height: 40px;
+      border: 1px solid #4b4b4b;
+      border-radius: 20px;
+      margin-left: 35px;
+      align-content: center;
+      padding-left: 12px;
+      padding-right: 10px;
+    }
+    .gurardados {
+      margin-left: 140px;
+    }
+  }
+  @media screen and (max-width: 1160px) {
+    .logoIC {
+      width: 152px;
+      height: 32;
+      margin-left: 33px;
+    }
+    .buscador {
+      width: 440px;
+      height: 40px;
+      border: 1px solid #4b4b4b;
+      border-radius: 20px;
+      margin-left: 30px;
+      align-content: center;
+      padding-left: 12px;
+      padding-right: 10px;
+    }
+    .gurardados {
+      margin-left: 120px;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .logoIC {
+      width: 152px;
+      height: 32;
+      margin-left: 28px;
+    }
+    .buscador {
+      width: 420px;
+      height: 40px;
+      border: 1px solid #4b4b4b;
+      border-radius: 20px;
+      margin-left: 25px;
+      align-content: center;
+      padding-left: 12px;
+      padding-right: 10px;
+    }
+    .gurardados {
+      margin-left: 90px;
+    }
+  }
+  @media screen and (max-width: 1120px) {
+    .logoIC {
+      width: 152px;
+      height: 32;
+      margin-left: 23px;
+    }
+    .buscador {
+      width: 400px;
+      height: 40px;
+      border: 1px solid #4b4b4b;
+      border-radius: 20px;
+      margin-left: 20px;
+      align-content: center;
+      padding-left: 12px;
+      padding-right: 10px;
+    }
+    .gurardados {
+      margin-left: 75px;
+    }
+    .demanda {
+      padding: 5px;
+      margin-left: 40px;
+      margin-right: 5px;
+      font-size: 12px;
+    }
+    .demanda img {
+      margin-left: 20px;
+    }
+    .fecha {
+      padding: 5px;
+      margin-right: 5px;
+      font-size: 12px;
+    }
+    .fecha img {
+      margin-left: 20px;
+    }
+    .proteccion {
+      padding: 5px;
+      margin-right: 5px;
+      font-size: 12px;
+    }
+    .proteccion img {
+      margin-left: 20px;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    .buscador {
+      width: 70vw;
+      height: 40px;
+      border: 1px solid #4b4b4b;
+      border-radius: 20px;
+      margin-left: 25px;
+      align-content: center;
+      padding-left: 12px;
+      padding-right: 10px;
+    }
+    .filtro {
+      margin-top: 25px;
+      margin-left: 25px;
+      font-size: 20px;
+    }
+    .gurardados {
+      margin-top: 15px;
+      margin-left: 25px;
+      font-size: 20px;
+    }
+    .main-resulatdo {
+      display: grid;
+      grid-template-columns: 90%;
+    }
+    .relatoria {
+      display: none;
+    }
+    /* contenedores segunda y tercera tarjeta */
+    .relatoria.mostrar{
+      display: grid;
+      position: absolute;
+      background-color: rgb(240, 240, 240);
+      height: 1000px;
+      margin-left: calc(50% - 210px);
+      box-shadow: 0px 1px 10px black;
+  }
+  
+  .button-mostrar{
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .head-relatoria .cerrar{
+      display: flex;
+      justify-content: flex-end;
+  }
+  /* contenedores segunda y tercera tarjeta */
+  @media all and (max-width: 991px) {
+    .tarjeta-alfredo-alvares {
+      text-align: start;
+      border-radius: 15px;
+      background-color: white;
+      padding: 10px 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 30px;
+      margin-right: 20px;
+      margin-top: 20px;
+    }
+  
+    .tarjeta-alfredo-alvares h4 {
+      padding-top: 20px;
+      padding-bottom: 5px;
+      color: #004884;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+    }
+  
+    .contenedor-informacion {
+      display: flex;
+      justify-content: initial;
+      flex-direction: initial;
+    }
+  
+    .titulo {
+      color: rgba(0, 72, 132, 1);
+      font-size: 14px;
+      font-family: "Work sans", sans-serif;
+      padding-bottom: 1px;
+      padding-left: 10px;
+      margin-bottom: 12px;
+    }
+  
+    .contenido {
+      color: rgba(75, 75, 75, 1);
+      font-size: 14px;
+      font-family: "Work sans", sans-serif;
+      padding-bottom: 7px;
+      padding-left: 10px;
+    }
+  
+    .titulo-contenido-2 {
+      padding-left: 70px;
+    }
+  
+    .alfredo-circulo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 25px;
+    }
+  
+    .alfredo-circulo p {
+      font-size: 14px;
+      font-family: "Work sans", sans-serif;
+      color: rgba(75, 75, 75, 1);
+    }
+  
+    .imagen-texto {
+      text-align: center;
+      padding-bottom: 12px;
+    }
+  }
+  /*last card Erika*/
+  @media all and (max-width: 1350px) {
+    /*footer*/
+    .pagination-container {
+      display: flex;
+      justify-content: center;
+      font-family: "Work sans", sans-serif;
+      font-size: 14px;
+      text-align: center;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      background-color: #fafbfd;
+      color: #004884;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .demanda {
+      padding: 5px;
+      margin-left: 40px;
+      margin-right: 5px;
+      font-size: 12px;
+    }
+    .demanda img {
+      margin-left: 20px;
+    }
+    .fecha {
+      padding: 5px;
+      margin-right: 5px;
+      font-size: 12px;
+    }
+    .fecha img {
+      margin-left: 20px;
+    }
+    .proteccion {
+      padding: 5px;
+      margin-right: 5px;
+      font-size: 12px;
+    }
+    .proteccion img {
+      margin-left: 20px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .demanda {
+      padding: 5px;
+      margin-left: 30px;
+      margin-right: 0;
+      font-size: 10px;
+    }
+    .demanda img {
+      margin-left: 15px;
+    }
+    .fecha {
+      padding: 5px;
+      margin-right: 5px;
+      font-size: 10px;
+    }
+    .fecha img {
+      margin-left: 15px;
+    }
+    .proteccion {
+      padding: 5px;
+      margin-right: 5px;
+      font-size: 10px;
+    }
+    .proteccion img {
+      margin-left: 15px;
+    }
+    .tresultados {
+      margin-left: 40px;
+      font-size: 14px;
+    }
+    .ordenar {
+      font-size: 12px;
+    }
+    .relevancia-boton {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .relevancia-boton img {
+      margin-left: 10px;
+    }
+    .container-print {
+      padding: 10px;
+    }
+    .container-principal h2 {
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .img-75 {
+      margin-left: 10px;
+    }
+    .container-table h4 {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .container-table p {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .img-guardar {
+      padding: 22px;
+    }
+    .img-guardar img {
+      margin-left: 15px;
+    }
+    .img-guardar p {
+      font-size: 14px;
+    }
+  
+    .tarjeta-alfredo-alvares {
+      text-align: start;
+      border-radius: 15px;
+      background-color: white;
+      padding: 10px 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 30px;
+      margin-right: 20px;
+      margin-top: 20px;
+    }
+  
+    .tarjeta-alfredo-alvares h4 {
+      padding-top: 20px;
+      padding-bottom: 5px;
+      color: #004884;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+    }
+  
+    .contenedor-informacion {
+      display: flex;
+      justify-content: initial;
+      flex-direction: initial;
+    }
+  
+    .titulo {
+      color: rgba(0, 72, 132, 1);
+      font-size: 12px;
+      font-family: "Work sans", sans-serif;
+      padding-bottom: 1px;
+      padding-left: 10px;
+      margin-bottom: 12px;
+    }
+  
+    .contenido {
+      color: rgba(75, 75, 75, 1);
+      font-size: 12px;
+      font-family: "Work sans", sans-serif;
+      padding-bottom: 7px;
+      padding-left: 10px;
+    }
+  
+    .titulo-contenido-2 {
+      padding-left: 70px;
+    }
+  
+    .alfredo-circulo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 25px;
+      padding-left: 5px;
+    }
+  
+    .alfredo-circulo p {
+      font-size: 14px;
+      font-family: "Work sans", sans-serif;
+      color: rgba(75, 75, 75, 1);
+    }
+  
+    .imagen-texto {
+      text-align: center;
+      padding-bottom: 12px;
+    }
+  
+    .pagination-container a {
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 3px;
+      color: #3366cc;
+    }
+    .pagination-one {
+      border-radius: 6px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background: #e6effd;
+    }
+    .pagination-two {
+      border-radius: 6px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .pagination-dots {
+      border-radius: 6px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .pagination-twenty {
+      border-radius: 6px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .pagination-container a {
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 3px;
+      color: #3366cc;
+    }
+    .pagination-one {
+      border-radius: 6px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background: #e6effd;
+    }
+    .pagination-two {
+      border-radius: 6px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .pagination-dots {
+      border-radius: 6px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .pagination-twenty {
+      border-radius: 6px;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .filtro-busqueda span {
+      display: block;
+      margin-left: 30px;
+      width: 200px;
+    }
+    .demanda img {
+      margin-left: 75px;
+    }
+    .fecha img {
+      margin-left: 32px;
+    }
+    .proteccion img {
+      margin-left: 47px;
+    }
+    .div-containers {
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    .container-resultados {
+      margin-top: 45px;
+    }
+  }
+  @media screen and (max-width: 540px) {
+    .container-print {
+      grid-template-columns: 77% 23%;
+      height: 250px;
+      margin-top: 10px;
+    }
+  }
+  /*MediasQuerys Home*/
+  
+  @media (min-width: 320px) and (max-width: 540px) {
+    .main-index-logo {
+      flex-direction: column;
+    }
+    .main-index-logo span {
+      width: auto;
+      padding: 10px 5px;
+      margin-right: 5px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 670px) {
+    .main-container-search {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .main-index-search {
+      width: 90vw;
+    }
+    .main-index-search .index-filtro {
+      font-size: 9px;
+      line-height: 24px;
+    }
+    .main-container-search a {
+      margin-top: 10px;
+    }
+    .main-index-search input::placeholder {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 670px) {
+    .main-pdf-text span {
+      font-size: 12px;
+      line-height: 24px;
+    }
+    .main-pdf-text a {
+      font-size: 10px;
+      line-height: 24px;
+    }
+    .main-pdf-data {
+      width: 90vw;
+    }
+    .main-pdf-data .data-input span {
+      font-size: 11px;
+      line-height: 24px;
+    }
+    .main-pdf-data .data-input .selectData {
+      color: #3366cc;
+      text-decoration: underline #3366cc;
+      padding: 0 5px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 540px) {
+    footer {
+      width: auto;
+      grid-template-columns: 1fr;
+      height: auto;
+    }
+    .container-footer1 {
+      padding: 25px;
+    }
+    .container-footer2 {
+      padding: 25px;
+    }
+    .container-footer3 {
+      padding: 25px;
+    }
+    .container-footer4 {
+      padding: 25px;
+    }
+  }
+  @media (min-width: 540px) and (max-width: 900px) {
+    footer {
+      width: auto;
+      grid-template-columns: 1fr 1fr;
+      height: auto;
+    }
+    .container-footer1 {
+      padding: 25px;
+    }
+    .container-footer2 {
+      padding: 25px;
+    }
+    .container-footer3 {
+      padding: 25px;
+    }
+    .container-footer4 {
+      padding: 25px;
+    }
+  }
+  }

@@ -1,0 +1,6 @@
+import css from "./assets/style.css"
+import  query from "./assets/media-querys.css"
+
+import router from "./routes"
+
+window.addEventListener("load", router)
