@@ -58,6 +58,7 @@
       align-content: center;
       padding-left: 12px;
       padding-right: 10px;
+      background-color: white;
   }
   .buscador img{
       width: 18px;
@@ -1039,4 +1040,5 @@
       justify-content: center;
       cursor: pointer;   
   }  
+  
   
