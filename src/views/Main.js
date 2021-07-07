@@ -1,4 +1,4 @@
-const Main = () => {
+const Main = async () => {
     const view = `
     <main class="main-index">
     <section class="main-index-logo">
@@ -19,7 +19,7 @@ const Main = () => {
         <span class="index-filtro">Ver filtros</span>
         <span class="icon-down"></span>
       </div>
-      <a href="./resultado"><button id="buttonIndex">BUSCAR</button></a>
+      <a href="/#resultado/"><button id="buttonIndex">BUSCAR</button></a>
     </section>
     <section class="main-container-pdf">
       <div class="main-pdf-text">
@@ -36,7 +36,8 @@ const Main = () => {
       </div>
     </section>
   </main>
-    `
-    return view
-}
-export default Main
+    `;
+    return view;
+};
+
+export default Main;

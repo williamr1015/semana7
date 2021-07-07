@@ -16,4 +16,5 @@ module.exports = {
              template: './public/index.html' 
             }),
       ],
+      stats: 'errors-only',
 }
