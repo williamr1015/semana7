@@ -6,7 +6,7 @@ const Main = async () => {
         src="./assets/imgs/Logo Industria y Comercio-color.png"
         alt="Logo industria y comercio"
       />
-      <span>Buscador de relatorías</span>
+      <span>Buscador de peliculas</span>
     </section>
     <section class="main-container-search">
       <div class="main-index-search">

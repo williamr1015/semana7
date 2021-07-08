@@ -2,10 +2,14 @@ import lupa from "../assets/icons/lupa-buscar.png"
 import cerrar from "../assets/icons/cerrar-buscar.png"
 import filtro from "../assets/icons/chevron filtro.png"
 import guardados from "../assets/icons/icono guardados.png"
+import getData from "../utils/getData"
+import getHash from "../utils/getHash"
 
 
-const Resultado = () => {
-    const view = `
+const Resultado = async () => {
+  const movies = await getData();
+ 
+  const view = `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand logoIC" href="#"><img src="#" alt="logo"></a>
@@ -32,6 +36,18 @@ const Resultado = () => {
 </section>
 <hr id="hr-main"/>
 <!-- cards parte de william -->
+<div class="posterPeliculas">
+${movies.items.map(movie => `
+
+  <article class="pelicula-item">
+  <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/${movie.poster_path}" alt="poster">
+  <h2>${movie.original_title}</h2>
+  </article>
+
+`).join('')}  
+
+
+</div>
         
 <!-- relatorias parte de Esteban -->
     </container>

@@ -1,5 +1,6 @@
 import css from "./assets/style.css"
 import  query from "./assets/media-querys.css"
+import 'bootstrap';
 
 
 

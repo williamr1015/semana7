@@ -1040,5 +1040,20 @@
       justify-content: center;
       cursor: pointer;   
   }  
+
+  /*Estilos para la cartelera*/
+
+  .posterPeliculas {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+
+  .pelicula-item {
+    text-align: center;
+    align-items: center;
+    box-shadow: teal 0 10px 10px 0;
+  }
   
   
