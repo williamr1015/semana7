@@ -2,17 +2,18 @@ import lupa from "../assets/icons/lupa-buscar.png"
 import cerrar from "../assets/icons/cerrar-buscar.png"
 import filtro from "../assets/icons/chevron filtro.png"
 import guardados from "../assets/icons/icono guardados.png"
+
 import getData from "../utils/getData"
 import getHash from "../utils/getHash"
 
 
-const Resultado = async () => {
-  const movies = await getData();
- 
-  const view = `
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+const Resultado = async() => {
+        const movies = await getData();
+
+        const view = `
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
     <div class="container-fluid">
-      <a class="navbar-brand logoIC" href="#"><img src="#" alt="logo"></a>
+      <a class="navbar-brand logoIC" href="#"><img src="#" alt="logoALTERFLIX"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
