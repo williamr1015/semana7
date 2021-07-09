@@ -533,8 +533,8 @@
   }
   @media screen and (max-width: 540px) {
     .container-print {
-      grid-template-columns: 77% 23%;
-      height: 250px;
+      text-align: center;
+      height: auto;
       margin-top: 10px;
     }
   }
