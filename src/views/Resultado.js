@@ -29,7 +29,7 @@ const Resultado = async() => {
             <a class="nav-link active" aria-current="page" href="#filtros/">Ver filtros  <img src="${filtro}" alt="filtros"></a>
           </li>
           <li class="nav-item gurardados">
-            <a class="nav-link active" href="#"><img src="${guardados}" alt="guardados"> Favoritas</a>
+            <a class="nav-link active" href="#save/"><img src="${guardados}" alt="guardados"> Favoritas</a>
           </li>
         </ul>
       </div>
