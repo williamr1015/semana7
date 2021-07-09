@@ -1,13 +1,15 @@
-const Header = () =>{
+import logoA from "../assets/img/logo ALTERFLIX.png";
+const Header = () => {
     const view = `
-    <header class="navbar-header">
     <span>
       <span>
-        <a class="Gov-co" href="#">Ir a Gov.co</a>
+        <a class="Gov-co" href="#">ALTERFLIX</a>
       </span>
     </span>
-  </header>
-    `
+    <img class="logoA" src="${logoA}" alt="logoALTERFLIX">
+
+`
     return view
-} 
+}
+
 export default Header
