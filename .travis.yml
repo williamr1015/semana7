@@ -20,4 +20,4 @@ deploy:
   target-branch: gh-pages
   commit_message: "deploy Proyecto "
   on: 
-    branch: master
+    branch: dv_epz
