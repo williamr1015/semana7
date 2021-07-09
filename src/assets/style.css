@@ -647,3 +647,20 @@ footer {
     right: 0;
     bottom: 0;
 }
+
+/*Estilo de resultado de busqueda*/
+
+.busqueda{
+    width: 90vw;
+    height: 24px;
+    display: flex;
+    color: #652ec5;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.busqueda span{
+    font-weight: 700;
+    padding-top: 10px;
+    margin-right: 10px;
+}

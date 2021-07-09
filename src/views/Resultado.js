@@ -36,6 +36,10 @@ const Resultado = async() => {
     </div>
   </nav>
 </section>
+<div class="busqueda">
+  <span class"text-busqueda">Resultado de la busqueda: </span>
+  <span class"resultado-busqueda" id="print-resultado"> </span>
+</div>
 ${movies.items.map(movie => `
 <hr id="hr-main"/>
 <section class="main-resulatdo">
