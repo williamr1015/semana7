@@ -22,7 +22,7 @@ const Main = async() => {
           type="text"
           id="inputIndex"
         />
-        <span class="index-filtro">Ver filtros</span>
+        <span class="index-filtro"><a href="#filtros/">Ver filtros</a></span>
         <span class="icon-down">
         <img src="${iconD}" alt="filtro">
         </span>
