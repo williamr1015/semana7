@@ -4,6 +4,8 @@ import Footer from "../components/footer";
 import getHash from "../utils/getHash";
 import Resultados from "../views/Resultado";
 import Error404 from "../views/Error404";
+import Found from "../utils/Found";
+import lookingFor from "../utils/lookingFor";
 
 const routes = {
     "": Main(),
@@ -13,6 +15,7 @@ const routes = {
 }
 
 const router = async () =>{
+    
     const header = null || document.getElementById('header')
     const main = null || document.getElementById('main')
     const footer = null || document.getElementById('footer')
@@ -20,7 +23,10 @@ const router = async () =>{
     footer.innerHTML = await Footer()
     let hash = getHash()
     let render = routes[hash] ? routes[hash] : Main();
-    main.innerHTML = await render
+    main.innerHTML = await render;
+    Found();
+    
+    
 }
 
 export default router
