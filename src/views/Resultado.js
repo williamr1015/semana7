@@ -25,10 +25,10 @@ const Resultado = async() => {
           </form>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item filtro">
-            <a class="nav-link active" aria-current="page" href="#">Ver filtros  <img src="${filtro}" alt="filtros"></a>
+            <a class="nav-link active" aria-current="page" href="#filtros/">Ver filtros  <img src="${filtro}" alt="filtros"></a>
           </li>
           <li class="nav-item gurardados">
-            <a class="nav-link active" href="#"><img src="${guardados}" alt="guardados"> Guardados</a>
+            <a class="nav-link active" href="#save/"><img src="${guardados}" alt="guardados"> Guardados</a>
           </li>
         </ul>
       </div>
