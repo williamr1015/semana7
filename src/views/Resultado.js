@@ -40,11 +40,9 @@ ${movies.items.map(movie => `
 <hr id="hr-main"/>
 <section class="main-resulatdo">
 
-
-  
           <div class="container-print">
           <div class="button-mostrar">
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop${movie.id}">
   ver detalles 
 </button>
          <hr class="div-containers">
@@ -67,7 +65,8 @@ ${movies.items.map(movie => `
 
           </div>
       </div>    
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      
+      <div class="modal fade" id="staticBackdrop${movie.id}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
