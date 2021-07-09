@@ -1,10 +1,12 @@
-const Main = async () => {
+import logoA from "../assets/img/logo ALTERFLIX.png";
+
+const Main = async() => {
     const view = `
     <main class="main-index">
     <section class="main-index-logo">
       <img
-        src="./assets/imgs/Logo Industria y Comercio-color.png"
-        alt="Logo industria y comercio"
+        src="${logoA}"
+        alt="Logo ALTERFLIX"
       />
       <span>Buscador de peliculas</span>
     </section>

@@ -20,7 +20,7 @@ const Resultado = async() => {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <form class="d-flex buscador">
             <img src="${lupa}" alt="buscar">
-            <input class="form-control me-2" type="search" placeholder="Demanda colectiva" aria-label="Search">
+            <input class="form-control me-2" id="innerindex" type="search" placeholder="Demanda colectiva" aria-label="Search">
             <img src="${cerrar}" alt="cerrar">
           </form>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
