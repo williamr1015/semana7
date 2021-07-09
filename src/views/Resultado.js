@@ -8,11 +8,11 @@ import logoA from "../assets/img/logo ALTERFLIX.png";
 
 
 
-const Resultado = async () => {
-  const movies = await getData();
-  
-  const view = `
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+const Resultado = async() => {
+        const movies = await getData();
+
+        const view = `
+  <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid">
     <a class="navbar-brand logoIC" href="#"><img class="logoAl" src="${logoA}" alt="logoALTERFLIX"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,12 +21,12 @@ const Resultado = async () => {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <form class="d-flex buscador">
           <img src="${lupa}" alt="buscar">
-          <input class="form-control me-2" type="search" placeholder="Pelicula" aria-label="Search">
+          <input class="form-control me-2" type="search" id="inputIndex" placeholder="Busca cualquier pelicula ¡Bienvenido!" aria-label="Search">
           <img src="${cerrar}" alt="cerrar">
         </form>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item filtro">
-            <a class="nav-link active" aria-current="page" href="#">Ver filtros  <img src="${filtro}" alt="filtros"></a>
+            <a class="nav-link active" aria-current="page" href="#filtros/">Ver filtros  <img src="${filtro}" alt="filtros"></a>
           </li>
           <li class="nav-item gurardados">
             <a class="nav-link active" href="#"><img src="${guardados}" alt="guardados"> Favoritas</a>
