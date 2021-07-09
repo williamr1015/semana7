@@ -8,7 +8,8 @@ import Error404 from "../views/Error404";
 const routes = {
     "": Main(),
     "#resultado/": Resultados(),
-    "#filtros/": Error404()
+    "#filtros/": Error404(),
+    "#save/": Error404()
 }
 
 const router = async () =>{
