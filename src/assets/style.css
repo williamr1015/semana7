@@ -17,52 +17,41 @@ body {
     font-weight: 400;
     display: flex;
     justify-content: space-between;
-    background: #b620fb;
+    background: #652ec5;
     padding-left: 22px;
     padding-right: 22px;
 }
 
 .logoA {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 8px;
     margin-top: 5px;
+    padding: 10px;
 }
 
-.logoGov {
-    width: 64px;
-    height: 20px;
-    margin-top: 10px;
+.logoAl {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 10px;
 }
-
-.Gov-co {
-    height: 20px;
-    margin-right: 22px;
-    margin-top: 10px;
-    float: left;
-    text-decoration: none;
-    color: white;
-}
-
-#hr-main {
-    background-color: #CCCCCC;
-}
-
-
-/* estilos navbar pagina resultados */
 
 .navbar {
+    background-color: #652ec5;
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    color: whitesmoke;
 }
 
 .logoIC {
     width: 152px;
-    height: 32;
+    height: 90px;
     margin-left: 49px;
 }
 
@@ -96,6 +85,10 @@ body {
     margin-left: 18px;
 }
 
+.filtro a {
+    color: white;
+}
+
 .filtro img {
     margin-left: 10px;
 }
@@ -115,167 +108,6 @@ body {
     grid-template-columns: 70% 30%;
 }
 
-.tarjeta-alfredo-alvares {
-    text-align: start;
-    border-radius: 15px;
-    background-color: white;
-    padding: 10px 20px;
-    display: grid;
-    grid-template-columns: 80% 20%;
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-top: 20px;
-}
-
-.tarjeta-alfredo-alvares h4 {
-    padding-top: 10px;
-    padding-bottom: 5px;
-    color: #004884;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-.contenedor-informacion {
-    display: flex;
-    justify-content: initial;
-    flex-direction: initial;
-}
-
-.titulo {
-    color: rgba(0, 72, 132, 1);
-    font-size: 14px;
-    font-family: 'Work sans', sans-serif;
-    padding-bottom: 1px;
-    padding-left: 10px;
-    margin-bottom: 12px;
-}
-
-.contenido {
-    color: rgba(75, 75, 75, 1);
-    font-size: 14px;
-    font-family: 'Work sans', sans-serif;
-    padding-bottom: 0px;
-    padding-left: 10px;
-}
-
-.titulo-contenido-2 {
-    padding-left: 120px;
-}
-
-.alfredo-circulo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.alfredo-circulo p {
-    font-size: 14px;
-    font-family: 'Work sans', sans-serif;
-    color: rgba(75, 75, 75, 1);
-}
-
-.imagen-texto {
-    text-align: center;
-}
-
-
-/* estilos container estadisticas */
-
-.estadisticas {
-    width: 100%;
-    height: 264px;
-}
-
-
-/*ultima tarjeta eb*/
-
-.last-card {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    text-align: start;
-    border-radius: 15px;
-    padding: 10px 20px;
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-top: 20px;
-    background-color: white;
-}
-
-.last-card h4 {
-    display: flex;
-    justify-content: initial;
-    flex-direction: initial;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 5px;
-    font-weight: 400;
-    font-size: 20px;
-    color: #004884;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.card-info {
-    display: flex;
-    justify-content: initial;
-    flex-direction: initial;
-}
-
-.rows {
-    padding-left: 10px;
-}
-
-.title {
-    padding-bottom: 10px;
-    padding-left: 10px;
-    font-family: 'Work sans', sans-serif;
-    font-size: 14px;
-    color: #004884;
-}
-
-.info {
-    padding-bottom: 10px;
-    padding-left: 10px;
-    font-size: 14px;
-    font-family: 'Work sans', sans-serif;
-    color: #4B4B4B;
-}
-
-.rows-one {
-    padding-left: 20px;
-}
-
-.icon-circle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.icon-circle p {
-    font-size: 14px;
-    font-family: 'Work sans', sans-serif;
-    text-align: center;
-    color: #4B4B4B;
-}
-
-.icon-save {
-    height: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 25px;
-}
-
-.icon-save p {
-    font-size: 14px;
-    font-family: 'Work sans', sans-serif;
-    padding-left: 0px;
-    color: #3366CC;
-}
-
 
 /* estilos relatoria */
 
@@ -286,250 +118,6 @@ body {
     margin-left: 0px;
     padding: 24px;
     margin: 0;
-}
-
-.countainer-estadistica {
-    width: 100%;
-    height: 176px;
-    padding: 24px;
-}
-
-.countainer-estadistica p {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 16px;
-    color: #4B4B4B, 100%;
-    margin-left: 50px;
-}
-
-.imagen-estadistica {
-    width: 100%;
-    height: 88px;
-    margin-left: 50px;
-    margin-right: 33px;
-    margin-top: 16px;
-}
-
-.filtro-busqueda {
-    width: 100%;
-    height: 72px;
-    padding: 24px;
-    margin-bottom: 24px;
-}
-
-.filtro-busqueda p {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 16px;
-    color: #4B4B4B, 100%;
-    margin-left: 50px;
-}
-
-.demanda {
-    padding: 9px;
-    height: 32px;
-    background: #e6effda8, 100%;
-    border: 0.5px solid #4b4b4b25;
-    border-radius: 16px;
-    margin-left: 50px;
-    margin-right: 8px;
-    font-size: 14px;
-    color: #3366CC;
-    font-weight: 400;
-    line-height: 16px;
-}
-
-.demanda :hover {
-    background: #6897e2cc;
-}
-
-.demanda img {
-    width: 15px;
-    height: 15px;
-    margin-left: 27px;
-}
-
-.fecha {
-    padding: 9px;
-    height: 32px;
-    background: #e6effda8, 100%;
-    border: 0.5px solid #4b4b4b25;
-    border-radius: 16px;
-    margin-right: 8px;
-    font-size: 14px;
-    color: #3366CC;
-    font-weight: 400;
-    line-height: 16px;
-}
-
-.fecha img {
-    width: 15px;
-    height: 15px;
-    margin-left: 27px;
-}
-
-.proteccion {
-    padding: 9px;
-    height: 32px;
-    background: #e6effda8;
-    border: 0.5px solid #4b4b4b25;
-    border-radius: 16px;
-    margin-right: 8px;
-    font-size: 14px;
-    color: #3366CC;
-    font-weight: 400;
-    line-height: 16px;
-}
-
-.proteccion img {
-    width: 15px;
-    height: 15px;
-    margin-left: 27px;
-}
-
-.div-containers {
-    display: none;
-}
-
-.div-containers :hover {
-    display: block;
-    color: #4B4B4B;
-}
-
-
-/* estilos container resultados */
-
-.container-resultados {
-    width: 100%;
-    height: 324px;
-    padding: 24px;
-    margin-top: 24px;
-    margin-bottom: 48px;
-}
-
-.container-relevancia {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 36px;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.tresultados {
-    margin-left: 50px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 16px;
-    color: #4B4B4B;
-}
-
-.ordenar {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #4B4B4B;
-    margin-right: 8px;
-}
-
-.relevancia-boton {
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: #BABABA;
-    border: 0.5px solid #4b4b4b25;
-    border-radius: 5px;
-}
-
-.relevancia-boton img {
-    margin-left: 15px;
-}
-
-
-/* tabla de impresion del resultado de la busqueda */
-
-.container-print {
-    width: 100%;
-    height: 216px;
-    padding: 16px;
-    border: 2px solid #3366CC;
-    border-radius: 16px;
-    display: grid;
-    grid-template-columns: 83.75% 16.15%;
-}
-
-.container-principal h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 32px;
-    color: #3366CC;
-    padding: 10px;
-}
-
-.img-75 {
-    width: 40px;
-    height: 40px;
-    margin-top: 16px;
-    margin-left: 20px;
-    margin-bottom: 8px;
-}
-
-.img-75 img {
-    margin-left: 15px;
-}
-
-.img-75 p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    font-family: 'Work Sans', sans-serif;
-    color: #4B4B4B;
-}
-
-.container-table {
-    display: grid;
-    grid-template-columns: 36% 64%;
-}
-
-.container-table h4 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 400px;
-    line-height: 24px;
-    color: #3366CC;
-}
-
-.container-table p {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 400px;
-    line-height: 24px;
-    color: #4B4B4B;
-    text-align: left;
-}
-
-.img-guardar {
-    padding: 32px;
-}
-
-.img-guardar img {
-    width: 14px;
-    height: 18px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-.img-guardar p {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 24px;
-    color: #3366CC;
 }
 
 
@@ -558,8 +146,8 @@ body {
 
 .main-index-logo img {
     position: static;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     left: 0px;
     top: 0px;
     flex: none;
@@ -567,6 +155,7 @@ body {
     flex-grow: 0;
     margin: 0px 16px;
     border-radius: 25px;
+    padding: 25px;
 }
 
 .main-index-logo span {
@@ -608,7 +197,7 @@ body {
     border-color: #dfe1e500;
 }
 
-.main-index-search .icon-search {
+.main-index-search .icon-search img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -637,25 +226,24 @@ body {
     height: 24px;
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
-    color: #3366cc;
+    color: #652ec5;
     font-size: 14px;
     line-height: 24px;
     padding-left: 8px;
 }
 
-.main-index-search .icon-down {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 9px;
+.main-index-search .icon-down img {
+    width: 12px;
     height: 6px;
+    margin-bottom: 8px;
+    margin-left: 15px;
 }
 
 .main-container-search button {
     width: 120px;
     height: 40px;
     padding: 8px 32px;
-    background: #3366cc;
+    background: #652ec5;
     border-radius: 30px;
     cursor: pointer;
     border: none;
@@ -667,82 +255,15 @@ body {
     margin-left: 8px;
 }
 
-.main-pdf-text {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 128px;
-    padding-bottom: 8px;
-}
-
-.main-pdf-text span {
-    font-family: "Work Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #4b4b4b;
-}
-
-.main-pdf-text a {
-    font-family: "Work Sans", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 24px;
-    text-align: center;
-    color: #3366cc;
-}
-
-.main-pdf-data {
-    display: flex;
-    width: 656px;
-    height: 176px;
-    border: 1px solid #dcdcdc;
-    border-radius: 16px;
-    flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.main-pdf-data img {
-    width: 96px;
-    height: 48px;
-}
-
-.main-pdf-data .data-input {
-    display: flex;
-    justify-content: center;
-}
-
-.main-pdf-data .data-input input {
-    position: absolute;
-    opacity: 0;
-}
-
-.main-pdf-data .data-input span {
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #4b4b4b;
-}
-
-.main-pdf-data .data-input .selectData {
-    color: #3366cc;
-    text-decoration: underline #3366cc;
-    padding: 0 5px;
-}
-
 footer {
     margin: 0 auto;
-    width: 95vw;
+    width: 100vw;
     height: 239px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border-top: 1px solid #dcdcdc;
+    background-color: #652ec5;
+    padding-top: 20px;
 }
 
 .container-footer1 {
@@ -760,9 +281,9 @@ footer {
 .container-footer1 .span-tex1 {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 16px;
-    color: #2a2d82;
+    color: white;
 }
 
 .container-footer1 .span-tex2 {
@@ -770,7 +291,7 @@ footer {
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    color: #212529;
+    color: whitesmoke;
     padding: 5px 0;
 }
 
@@ -779,7 +300,7 @@ footer {
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #4b4b4b;
+    color: whitesmoke;
 }
 
 .container-footer1 .span-tex4 {
@@ -787,7 +308,7 @@ footer {
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #16aaff;
+    color: whitesmoke;
 }
 
 .container-footer2 {
@@ -805,9 +326,9 @@ footer {
 .container-footer2 .span-tex1 {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 16px;
-    color: #2a2d82;
+    color: white;
 }
 
 .container-footer2 .span-tex2 {
@@ -815,7 +336,7 @@ footer {
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    color: #212529;
+    color: whitesmoke;
     padding: 5px 0;
 }
 
@@ -824,7 +345,7 @@ footer {
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #4b4b4b;
+    color: whitesmoke;
 }
 
 .container-footer3 {
@@ -842,9 +363,9 @@ footer {
 .container-footer3 .span-tex1 {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 16px;
-    color: #2a2d82;
+    color: white;
 }
 
 .container-footer3 .span-tex2 {
@@ -852,7 +373,7 @@ footer {
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    color: #212529;
+    color: whitesmoke;
     padding: 5px 0;
 }
 
@@ -861,7 +382,7 @@ footer {
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #4b4b4b;
+    color: whitesmoke;
 }
 
 .container-footer3 .span-tex4 {
@@ -869,7 +390,7 @@ footer {
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #16aaff;
+    color: whitesmoke;
 }
 
 .container-footer4 {
@@ -884,13 +405,14 @@ footer {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-    color: #2a2d82;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .container-footer4 img {
     width: 237px;
     height: 51px;
-    margin-left: 37px;
 }
 
 #hr-main {
@@ -904,12 +426,6 @@ footer {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-}
-
-.logoIC {
-    width: 152px;
-    height: 32;
-    margin-left: 49px;
 }
 
 .buscador {

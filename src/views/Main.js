@@ -1,4 +1,6 @@
 import logoA from "../assets/img/logo ALTERFLIX.png";
+import iconD from "../assets/icons/chevron filtro.png"
+import iconB from "../assets/icons/lupa-buscar.png"
 
 const Main = async() => {
     const view = `
@@ -12,31 +14,22 @@ const Main = async() => {
     </section>
     <section class="main-container-search">
       <div class="main-index-search">
-        <span class="icon-search"></span>
+        <span class="icon-search">
+        <img src="${iconB}" alt="buscar">
+        </span>
         <input
-          placeholder="Busca cualquier término jurídico"
+          placeholder="Busca cualquier pelicula ¡Bienvenido!"
           type="text"
           id="inputIndex"
         />
         <span class="index-filtro">Ver filtros</span>
-        <span class="icon-down"></span>
+        <span class="icon-down">
+        <img src="${iconD}" alt="filtro">
+        </span>
       </div>
       <a href="/#resultado/"><button id="buttonIndex">BUSCAR</button></a>
     </section>
-    <section class="main-container-pdf">
-      <div class="main-pdf-text">
-        <span>Búsqueda avanzada con Inteligencia Artificial</span>
-        <a href="#">¿Cómo funciona?</a>
-      </div>
-      <div class="main-pdf-data">
-        <div class="data-input">
-          <input type="file" />
-          <span>Arrastra aquí o </span>
-          <span class="selectData">selecciona un documento</span>
-          <span>desde tus archivos</span>
-        </div>
-      </div>
-    </section>
+    
   </main>
     `;
     return view;

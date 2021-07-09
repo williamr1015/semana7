@@ -2,7 +2,7 @@ import lupa from "../assets/icons/lupa-buscar.png"
 import cerrar from "../assets/icons/cerrar-buscar.png"
 import filtro from "../assets/icons/chevron filtro.png"
 import guardados from "../assets/icons/icono guardados.png"
-
+import logoA from "../assets/img/logo ALTERFLIX.png"
 import getData from "../utils/getData"
 import getHash from "../utils/getHash"
 
@@ -11,16 +11,16 @@ const Resultado = async() => {
         const movies = await getData();
 
         const view = `
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <a class="navbar-brand logoIC" href="#"><img src="#" alt="logoALTERFLIX"></a>
+      <a class="navbar-brand logoIC" href="#"><img class="logoAl" src="${logoA}" alt="logoALTERFLIX"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <form class="d-flex buscador">
             <img src="${lupa}" alt="buscar">
-            <input class="form-control me-2" id="innerindex" type="search" placeholder="Demanda colectiva" aria-label="Search">
+            <input class="form-control me-2" id="innerText" type="search" placeholder="Busca cualquier pelicula ¡Bienvenido!" aria-label="Search">
             <img src="${cerrar}" alt="cerrar">
           </form>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">

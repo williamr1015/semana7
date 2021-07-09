@@ -1,3 +1,4 @@
+import redesS from "../assets/img/Redes.png"
 const Footer = () => {
     const view = `   <div class="container-footer1">
     <span class="span-tex1">LÍNEA DE ATENCIÓN AL CONSUMIDOR</span>
@@ -30,15 +31,15 @@ const Footer = () => {
       <span class="span-tex3">Lunes a Viernes de 8:00 a.m a 4:30 p.m</span>
     </div>
     <div>
-      <span class="span-tex2">Correo Notificaciones Judiciales</span>
-      <span class="span-tex4"> notificacionesjud@sic.gov.co</span>
+      <span class="span-tex2">Correo de Contacto</span>
+      <span class="span-tex4"> alterflix.col@gmail.com</span>
     </div>
   </div>
   <div class="container-footer4">
     <span class="span-tex1">SÍGANOS</span>
-        <img src="./assets/imgs/Redes.png" alt="redes" />
+        <img src="${redesS}" alt="redes" />
   </div>
 `
-return view
+    return view
 }
 export default Footer
