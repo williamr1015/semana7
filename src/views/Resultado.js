@@ -12,7 +12,7 @@ const Resultado = async() => {
         const movies = await getData();
 
         const view = `
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid">
     <a class="navbar-brand logoIC" href="#"><img class="logoAl" src="${logoA}" alt="logoALTERFLIX"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
