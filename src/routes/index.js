@@ -3,10 +3,12 @@ import Main from "../views/Main";
 import Footer from "../components/footer";
 import getHash from "../utils/getHash";
 import Resultados from "../views/Resultado";
+import Error404 from "../views/Error404";
 
 const routes = {
     "": Main(),
-    "#resultado/": Resultados()
+    "#resultado/": Resultados(),
+    "#filtros/": Error404()
 }
 
 const router = async () =>{
