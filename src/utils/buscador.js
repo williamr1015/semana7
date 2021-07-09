@@ -1,4 +1,4 @@
-localStorage.setItem("seguro", "no");
+localStorage.setItem("seguro", JSON.stringify(inputIndex.value), "no");
 
 document.addEventListener("buttonIndex").onclick = function() {
 
